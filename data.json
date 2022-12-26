@@ -1,0 +1,1823 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-12-12T23:01:33.824Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "celloudev",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-12-12T23:02:47.037Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4ea071e3-2856-4851-b615-206294cc8112",
+    "object_repr": "Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-12-12T23:03:32.039Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "abbbc28b-faa2-4bc5-b25c-ef9838f956ac",
+    "object_repr": "Django Rest Frameword",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-12-12T23:03:45.502Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "ea15c6d4-ea02-4ff1-a47a-449bbbf22f36",
+    "object_repr": "Divers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-12-13T01:33:02.995Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2134b5bc-2097-4a07-b7d9-3f2303f753e0",
+    "object_repr": "Diversity in Engineering: The Effect on Questions",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-12-13T01:35:31.714Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Authors",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-12-13T01:39:16.311Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "e4681ea2-01da-4d04-a67e-ebffd8d6fdcc",
+    "object_repr": "Suspendisse et metus nec libero ultrices varius eget in risus",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-12-13T01:42:54.748Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "a24005ea-0246-4c01-9d68-27dfd0860b38",
+    "object_repr": "Using Environment Variables In Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-12-13T16:17:49.719Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2134b5bc-2097-4a07-b7d9-3f2303f753e0",
+    "object_repr": "Diversity in Engineering: The Effect on Questions",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Thumbnail\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-12-20T16:32:09.334Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-12-20T16:32:09.410Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2022-12-20T16:52:04.529Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2022-12-22T08:21:12.432Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2022-12-22T08:21:12.498Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "13",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2022-12-22T08:21:12.507Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2022-12-22T08:21:12.515Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2022-12-22T08:21:12.523Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2022-12-22T08:21:12.531Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2022-12-22T08:21:12.540Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2022-12-22T09:13:26.093Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "20",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2022-12-22T09:13:26.134Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "19",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2022-12-22T09:13:26.142Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "18",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2022-12-22T09:13:26.150Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "17",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2022-12-22T09:13:26.158Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "16",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2022-12-22T09:13:26.166Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2022-12-22T14:11:28.802Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "22",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2022-12-22T14:11:28.924Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "21",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2022-12-22T14:21:37.362Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "784fe934-1143-48a3-9c4d-070e81b2430f",
+    "object_repr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2022-12-22T15:46:26.000Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "26",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2022-12-22T15:46:26.043Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "25",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2022-12-22T16:00:02.323Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "27",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2022-12-22T16:12:08.038Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "a24005ea-0246-4c01-9d68-27dfd0860b38",
+    "object_repr": "Using Environment Variables In Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Previous post\", \"Next post\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2022-12-22T16:18:41.583Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "784fe934-1143-48a3-9c4d-070e81b2430f",
+    "object_repr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Next post\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2022-12-22T16:20:34.242Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "e4681ea2-01da-4d04-a67e-ebffd8d6fdcc",
+    "object_repr": "Suspendisse et metus nec libero ultrices varius eget in risus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Previous post\", \"Next post\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.677Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "55",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.736Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "54",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.744Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "53",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.753Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "52",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.761Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "51",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.769Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "50",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.777Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "49",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.786Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "48",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.794Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "47",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.802Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "46",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.811Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "45",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.819Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "44",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.827Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "43",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.835Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "42",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.843Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "41",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.852Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "40",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.860Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "39",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.868Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "38",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.876Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "37",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.893Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "36",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.901Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "35",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.909Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "34",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.918Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "33",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.926Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "32",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.934Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "31",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.942Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "30",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.951Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "29",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.959Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "28",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.967Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "24",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.975Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "23",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.984Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2022-12-26T09:33:32.992Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2022-12-26T09:33:33.000Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2022-12-26T11:23:46.875Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "e4681ea2-01da-4d04-a67e-ebffd8d6fdcc",
+    "object_repr": "Suspendisse et metus nec libero ultrices varius eget in risus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 7,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 7,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 7,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 7,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 8,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 8,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 8,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 8,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Author",
+    "content_type": 9,
+    "codename": "add_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Author",
+    "content_type": 9,
+    "codename": "change_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Author",
+    "content_type": 9,
+    "codename": "delete_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Author",
+    "content_type": 9,
+    "codename": "view_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Category",
+    "content_type": 10,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Category",
+    "content_type": 10,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Category",
+    "content_type": 10,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Category",
+    "content_type": 10,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Post",
+    "content_type": 11,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Post",
+    "content_type": 11,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Post",
+    "content_type": 11,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Post",
+    "content_type": 11,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add Comment",
+    "content_type": 12,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change Comment",
+    "content_type": 12,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete Comment",
+    "content_type": 12,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Comment",
+    "content_type": 12,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add Blacklisted IP",
+    "content_type": 13,
+    "codename": "add_blacklistip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change Blacklisted IP",
+    "content_type": 13,
+    "codename": "change_blacklistip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete Blacklisted IP",
+    "content_type": 13,
+    "codename": "delete_blacklistip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view Blacklisted IP",
+    "content_type": 13,
+    "codename": "view_blacklistip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add Blacklisted User Agent",
+    "content_type": 14,
+    "codename": "add_blacklistuseragent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change Blacklisted User Agent",
+    "content_type": 14,
+    "codename": "change_blacklistuseragent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete Blacklisted User Agent",
+    "content_type": 14,
+    "codename": "delete_blacklistuseragent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view Blacklisted User Agent",
+    "content_type": 14,
+    "codename": "view_blacklistuseragent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add hit",
+    "content_type": 15,
+    "codename": "add_hit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change hit",
+    "content_type": 15,
+    "codename": "change_hit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete hit",
+    "content_type": 15,
+    "codename": "delete_hit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view hit",
+    "content_type": 15,
+    "codename": "view_hit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add hit count",
+    "content_type": 16,
+    "codename": "add_hitcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change hit count",
+    "content_type": 16,
+    "codename": "change_hitcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete hit count",
+    "content_type": 16,
+    "codename": "delete_hitcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view hit count",
+    "content_type": 16,
+    "codename": "view_hitcount"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Authors",
+    "permissions": [
+      37,
+      38,
+      39,
+      40,
+      45,
+      46,
+      47,
+      48,
+      41,
+      42,
+      43,
+      44
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$qDtFj2Cw89wXUsXa2LxrLP$NF/Nw8a85TG2to16qCwTO9prp4+dBJm5cC+kQ3PBkko=",
+    "last_login": "2022-12-20T17:26:12.094Z",
+    "is_superuser": true,
+    "username": "celloudev",
+    "first_name": "",
+    "last_name": "",
+    "email": "cskhamis94@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-12-12T22:49:00.168Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "blog",
+    "model": "author"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "blog",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "hitcount",
+    "model": "blacklistip"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "hitcount",
+    "model": "blacklistuseragent"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "hitcount",
+    "model": "hit"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "hitcount",
+    "model": "hitcount"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "83105gw4pkpdoopm1s9hnd219rbybdkg",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyEVcAGP3vsNZFkWqRpISnsy_rtt0oPOcd6beYuA61LC2nkOUxJXcRan3y4iPbnuID2w3pukVpd5inJX5EG7HFvi1-1w_w4K9rKttfHERiNYqzxsccgeB4jW6ZzI5gQD84W9MslGcsoCoPEOHesM5MXnC9bvN9k:1p7gNY:QeQI95tzcerppdhylNY24HkWAgWXMgsffqNDl9aac1E",
+    "expire_date": "2023-01-03T17:26:12.103Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gikbjblz35cegt2pop2xqvsf8guljlae",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyEVcAGP3vsNZFkWqRpISnsy_rtt0oPOcd6beYuA61LC2nkOUxJXcRan3y4iPbnuID2w3pukVpd5inJX5EG7HFvi1-1w_w4K9rKttfHERiNYqzxsccgeB4jW6ZzI5gQD84W9MslGcsoCoPEOHesM5MXnC9bvN9k:1p4rlI:sDSkie96oDNJogKvANCZwu-5Jw2nkMuscrO7b2aYEKw",
+    "expire_date": "2022-12-26T22:59:04.713Z"
+  }
+},
+{
+  "model": "blog.author",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "avatar": "author/2022/12/12/moi2.png",
+    "designation": "Django full-stack developer"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": "4ea071e3-2856-4851-b615-206294cc8112",
+  "fields": {
+    "title": "Django",
+    "is_active": true,
+    "slug": "django-4ea071e3-2856-4851-b615-206294cc8112",
+    "date_created": "2022-12-12T23:02:47.035Z",
+    "last_updated": "2022-12-12T23:02:47.035Z"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": "abbbc28b-faa2-4bc5-b25c-ef9838f956ac",
+  "fields": {
+    "title": "Django Rest Frameword",
+    "is_active": true,
+    "slug": "django-rest-frameword-abbbc28b-faa2-4bc5-b25c-ef9838f956ac",
+    "date_created": "2022-12-12T23:03:32.037Z",
+    "last_updated": "2022-12-12T23:03:32.037Z"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": "ea15c6d4-ea02-4ff1-a47a-449bbbf22f36",
+  "fields": {
+    "title": "Divers",
+    "is_active": true,
+    "slug": "divers-ea15c6d4-ea02-4ff1-a47a-449bbbf22f36",
+    "date_created": "2022-12-12T23:03:45.500Z",
+    "last_updated": "2022-12-12T23:03:45.500Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "2134b5bc-2097-4a07-b7d9-3f2303f753e0",
+  "fields": {
+    "title": "Diversity in Engineering: The Effect on Questions",
+    "overview": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "author": 1,
+    "thumbnail": "post/2022/12/13/featured-pic-2.jpeg",
+    "content": "<p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\r\n<p><img src=\"../../../../media/tinymce/2022/12/13/blog-3.jpg\" alt=\"\" width=\"640\" height=\"450\" /></p>\r\n<h3>Lorem Ipsum Dolor</h3>\r\n<p>div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda temporibus iusto voluptates deleniti similique rerum ducimus sint ex odio saepe. Sapiente quae pariatur ratione quis perspiciatis deleniti accusantium</p>\r\n<blockquote class=\"blockquote\">\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>\r\n<footer class=\"blockquote-footer\">Someone famous in <cite title=\"Source Title\">Source Title</cite></footer></blockquote>\r\n<p>quasi nam. Libero dicta eum recusandae, commodi, ad, autem at ea iusto numquam veritatis, officiis. Accusantium optio minus, voluptatem? Quia reprehenderit, veniam quibusdam provident, fugit iusto ullam voluptas neque soluta adipisci ad.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "category": "ea15c6d4-ea02-4ff1-a47a-449bbbf22f36",
+    "is_featured": true,
+    "is_active": true,
+    "previous_post": null,
+    "next_post": null,
+    "slug": "diversity-in-engineering-the-effect-on-questions",
+    "date_created": "2022-12-13T01:33:02Z",
+    "last_updated": "2022-12-13T16:17:49.713Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "784fe934-1143-48a3-9c4d-070e81b2430f",
+  "fields": {
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "overview": "div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda temporibus iusto voluptates deleniti similique rerum ducimus sint ex odio saepe. Sapiente quae pariatur ratione quis perspiciatis deleniti accusantium",
+    "author": 1,
+    "thumbnail": "post/2022/12/22/blog-2.jpg",
+    "content": "<p>You can browse different tags such as <a href=\"https://templatemo.com/tag/multi-page\" target=\"_parent\" rel=\"nofollow\">multi-page</a>, <a href=\"https://templatemo.com/tag/resume\" target=\"_parent\" rel=\"nofollow\">resume</a>, <a href=\"https://templatemo.com/tag/video\" target=\"_parent\" rel=\"nofollow\">video</a>, etc. to see more CSS templates. Sed hendrerit rutrum arcu, non malesuada nisi. Sed id facilisis turpis. Donec justo elit, dapibus vel ultricies in, molestie sit amet risus. In nunc augue, rhoncus sed libero et, tincidunt tempor nisl. Donec egestas, quam eu rutrum ultrices, sapien ante posuere nisl, ac eleifend eros orci vel ante. Pellentesque vitae eleifend velit. Etiam blandit felis sollicitudin vestibulum feugiat. <br /><br />Donec tincidunt leo nec magna gravida varius. Suspendisse felis orci, egestas ac sodales quis, venenatis et neque. Vivamus facilisis dignissim arcu et blandit. Maecenas finibus dui non pulvinar lacinia. Ut lacinia finibus lorem vel porttitor. Suspendisse et metus nec libero ultrices varius eget in risus. Cras id nibh at erat pulvinar malesuada et non ipsum. Suspendisse id ipsum leo.</p>\r\n<p>Sed hendrerit rutrum arcu, non malesuada nisi. Sed id facilisis turpis. Donec justo elit, dapibus vel ultricies in, molestie sit amet risus. In nunc augue, rhoncus sed libero et, tincidunt tempor nisl. Donec egestas, quam eu rutrum ultrices, sapien ante posuere nisl, ac eleifend eros orci vel ante. Pellentesque vitae eleifend velit. Etiam blandit felis sollicitudin vestibulum feugiat.</p>\r\n<div>\r\n<div>#================================ CATEGORY ========================#</div>\r\n<div>class Author(models.Model):</div>\r\n<div>user = models.OneToOneField(User, on_delete=models.CASCADE)</div>\r\n<div>avatar = models.ImageField(upload_to='author/%Y/%m/%d/', blank=True, null=True)</div>\r\n<div>designation = models.CharField(verbose_name=_('designation'),</div>\r\n<div>help_text=_(\"ex: django full-stack developer\"),</div>\r\n<div>max_length=150,</div>\r\n<div>blank=True,</div>\r\n<div>null=True</div>\r\n<div>)</div>\r\n</div>\r\n<div><br />\r\n<div>def __str__(self):</div>\r\n<div>&nbsp;</div>\r\n<div>Ut lacinia finibus lorem vel porttitor. Suspendisse et metus nec libero ultrices varius eget in risus. Cras id nibh at erat pulvinar malesuada et non ipsum. Suspendisse id ipsum leo.\r\n<p>Sed hendrerit rutrum arcu, non malesuada nisi. Sed id facilisis turpis. Donec justo elit, dapibus vel ultricies in, molestie sit amet risus. In nunc augue, rhoncus sed libero et, tincidunt tempor nisl. Donec egestas, quam eu rutrum ultrices, sapien ante posuere nisl, ac eleifend eros orci vel ante. Pellentesque vitae eleifend velit. Etiam blandit felis sollicitudin vestibulum feugiat.</p>\r\n</div>\r\n</div>\r\n<p>&nbsp;</p>",
+    "category": "ea15c6d4-ea02-4ff1-a47a-449bbbf22f36",
+    "is_featured": false,
+    "is_active": true,
+    "previous_post": null,
+    "next_post": "a24005ea-0246-4c01-9d68-27dfd0860b38",
+    "slug": "lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua",
+    "date_created": "2022-12-22T14:21:37Z",
+    "last_updated": "2022-12-22T16:18:41.579Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "a24005ea-0246-4c01-9d68-27dfd0860b38",
+  "fields": {
+    "title": "Using Environment Variables In Django",
+    "overview": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+    "author": 1,
+    "thumbnail": "post/2022/12/13/blog-post-4.jpeg",
+    "content": "<p>While working with web applications often we need to store sensitive data for authentication of different modules such as database credentials and API keys. These sensitive keys should not be hardcoded in the <code>settings.py</code> file instead they should be loaded with Environment variables on runtime.</p>\r\n<p>An environment variable is a variable whose value is set outside the program, typically through a functionality built into the operating system. An environment variable is made up of a name/value pair.</p>\r\n<p>Environment variables help us keep secrets (for example, Passwords, API tokens, and so on) out of version control, therefore, they are considered an integral part of the popular Twelve-Factor App Design methodology and a Django best practice because they allow a greater level of security and simpler local/production configurations.</p>\r\n<p>Also, environment variables provide a greater degree of flexibility for switching between local development setup and <a href=\"https://djangocentral.com/deploy-django-with-nginx-gunicorn-postgresql-and-lets-encrypt-ssl-on-ubuntu/\" target=\"_blank\" rel=\"noopener noreferrer\">production setup</a>.</p>\r\n<p>Therefore Adding environment variables is a necessary step for any truly professional Django project.</p>\r\n<h2>Creating Environment Variables</h2>\r\n<p>Create a <code>.env</code> file in the same directory where <code>settings.py</code> resides and add the following key-value pair inside the file.</p>\r\n<pre class=\"hljs-copy-wrapper\" style=\"--hljs-theme-background: rgba(0, 0, 0, 0);\"><code class=\"language-python hljs\">SECRET_KEY=0x!b<span class=\"hljs-comment\">#(1*cd73w$&amp;azzc6p+essg7v=g80ls#z&amp;xcx*mpemx&amp;@9$</span>\r\nDATABASE_NAME=db_name\r\nDATABASE_USER=db_user\r\nDATABASE_PASSWORD=password\r\nDATABASE_HOST=localhost\r\nDATABASE_PORT=<span class=\"hljs-number\">5432</span></code></pre>\r\n<p>We will use&nbsp;<code>django-environ</code> for managing environment variables inside our project. So let's install the package.</p>\r\n<pre class=\"hljs-copy-wrapper\" style=\"--hljs-theme-background: rgba(0, 0, 0, 0);\"><code class=\"hljs language-undefined\">pip install django-environ</code></pre>\r\n<p>With that now, we can access the environmental variables in our codebase.</p>\r\n<pre class=\"hljs-copy-wrapper\" style=\"--hljs-theme-background: rgba(0, 0, 0, 0);\"><code class=\"hljs language-bash\">import environ\r\n\r\n<span class=\"hljs-built_in\">env</span> = environ.Env()\r\n<span class=\"hljs-comment\"># reading .env file</span>\r\nenviron.Env.read_env()\r\n\r\n<span class=\"hljs-comment\"># Raises django's ImproperlyConfigured exception if SECRET_KEY not in os.environ</span>\r\nSECRET_KEY = <span class=\"hljs-built_in\">env</span>(<span class=\"hljs-string\">\"SECRET_KEY\"</span>)\r\n\r\nDATABASES = {\r\n    <span class=\"hljs-string\">'default'</span>: {\r\n        <span class=\"hljs-string\">'ENGINE'</span>: <span class=\"hljs-string\">'django.db.backends.postgresql_psycopg2'</span>,\r\n        <span class=\"hljs-string\">'NAME'</span>: <span class=\"hljs-built_in\">env</span>(<span class=\"hljs-string\">\"DATABASE_NAME\"</span>),\r\n        <span class=\"hljs-string\">'USER'</span>: <span class=\"hljs-built_in\">env</span>(<span class=\"hljs-string\">\"DATABASE_USER\"</span>),\r\n        <span class=\"hljs-string\">'PASSWORD'</span>: <span class=\"hljs-built_in\">env</span>(<span class=\"hljs-string\">\"DATABASE_PASSWORD\"</span>),\r\n        <span class=\"hljs-string\">'HOST'</span>: <span class=\"hljs-built_in\">env</span>(<span class=\"hljs-string\">\"DATABASE_HOST\"</span>),\r\n        <span class=\"hljs-string\">'PORT'</span>: <span class=\"hljs-built_in\">env</span>(<span class=\"hljs-string\">\"DATABASE_PORT\"</span>),\r\n    }\r\n}</code></pre>\r\n<p>Save the file and run the server everything should be working smoothly.</p>\r\n<p>Additionally, you can also provide default values as follows.</p>\r\n<pre class=\"hljs-copy-wrapper\" style=\"--hljs-theme-background: rgba(0, 0, 0, 0);\"><code class=\"hljs language-bash\">SECRET_KEY = <span class=\"hljs-built_in\">env</span>(<span class=\"hljs-string\">\"SECRET_KEY\"</span>, default=<span class=\"hljs-string\">\"unsafe-secret-key\"</span>)</code></pre>\r\n<p>Don't forget to add <code class=\"docutils literal notranslate\"><span class=\"pre\">.env</span></code>&nbsp;in your&nbsp;<code class=\"docutils literal notranslate\"><span class=\"pre\">.gitignore</span></code> also, it's advisable to create a <code>.env.example</code> with a template of all the variables required for the project.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "category": "4ea071e3-2856-4851-b615-206294cc8112",
+    "is_featured": true,
+    "is_active": true,
+    "previous_post": "784fe934-1143-48a3-9c4d-070e81b2430f",
+    "next_post": "e4681ea2-01da-4d04-a67e-ebffd8d6fdcc",
+    "slug": "using-environment-variables-in-django",
+    "date_created": "2022-12-13T01:42:54Z",
+    "last_updated": "2022-12-22T16:12:08.036Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "e4681ea2-01da-4d04-a67e-ebffd8d6fdcc",
+  "fields": {
+    "title": "Suspendisse et metus nec libero ultrices varius eget in risus",
+    "overview": "Donec tincidunt leo nec magna gravida varius. Suspendisse felis orci, egestas ac sodales quis, venenatis et neque. Vivamus facilisis dignissim arcu et blandit. Maecenas finibus dui non pulvinar lacinia. Ut lacinia finibus lorem vel porttitor.",
+    "author": 1,
+    "thumbnail": "post/2022/12/13/blog-post-3.jpeg",
+    "content": "<p>You can browse different tags such as <a href=\"https://templatemo.com/tag/multi-page\" target=\"_parent\" rel=\"nofollow\">multi-page</a>, <a href=\"https://templatemo.com/tag/resume\" target=\"_parent\" rel=\"nofollow\">resume</a>, <a href=\"https://templatemo.com/tag/video\" target=\"_parent\" rel=\"nofollow\">video</a>, etc. to see more CSS templates. Sed hendrerit rutrum arcu, non malesuada nisi. Sed id facilisis turpis. Donec justo elit, dapibus vel ultricies in, molestie sit amet risus. In nunc augue, rhoncus sed libero et, tincidunt tempor nisl. Donec egestas, quam eu rutrum ultrices, sapien ante posuere nisl, ac eleifend eros orci vel ante. Pellentesque vitae eleifend velit. Etiam blandit felis sollicitudin vestibulum feugiat. <br /><br />Donec tincidunt leo nec magna gravida varius. Suspendisse felis orci, egestas ac sodales quis, venenatis et neque. Vivamus facilisis dignissim arcu et blandit. Maecenas finibus dui non pulvinar lacinia. Ut lacinia finibus lorem vel porttitor. Suspendisse et metus nec libero ultrices varius eget in risus. Cras id nibh at erat pulvinar malesuada et non ipsum. Suspendisse id ipsum leo.</p>\r\n<h3>Lorem Ipsum Dolor</h3>\r\n<p>div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda temporibus iusto voluptates deleniti similique rerum ducimus sint ex odio saepe. Sapiente quae pariatur ratione quis perspiciatis deleniti accusantium</p>\r\n<blockquote class=\"blockquote\">\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>\r\n<footer class=\"blockquote-footer\">Someone famous in <cite title=\"Source Title\">Source Title</cite></footer></blockquote>\r\n<p>quasi nam. Libero dicta eum recusandae, commodi, ad, autem at ea iusto numquam veritatis, officiis. Accusantium optio minus, voluptatem? Quia reprehenderit, veniam quibusdam provident, fugit iusto ullam voluptas neque soluta adipisci ad.</p>\r\n<p>ed hendrerit rutrum arcu, non malesuada nisi. Sed id facilisis turpis. Donec justo elit, dapibus vel ultricies in, molestie sit amet risus. In nunc augue, rhoncus sed libero et, tincidunt tempor nisl. Donec egestas, quam eu rutrum ultrices, sapien ante posuere nisl, ac eleifend eros orci vel ante. Pellentesque vitae eleifend velit. Etiam blandit felis sollicitudin vestibulum feugiat.</p>\r\n<p><br /><br />Donec tincidunt leo nec magna gravida varius. Suspendisse felis orci, egestas ac sodales quis, venenatis et neque. Vivamus facilisis dignissim arcu et blandit. Maecenas finibus dui non pulvinar lacinia. Ut lacinia finibus lorem vel porttitor. Suspendisse et metus nec libero ultrices varius eget in risus. Cras id nibh at erat pulvinar malesuada et non ipsum. Suspendisse id ipsum leo.</p>",
+    "category": "4ea071e3-2856-4851-b615-206294cc8112",
+    "is_featured": true,
+    "is_active": true,
+    "previous_post": "a24005ea-0246-4c01-9d68-27dfd0860b38",
+    "next_post": "2134b5bc-2097-4a07-b7d9-3f2303f753e0",
+    "slug": "suspendisse-et-metus-nec-libero-ultrices-varius-eget-in-risus",
+    "date_created": "2022-12-13T01:39:16Z",
+    "last_updated": "2022-12-26T11:23:46.873Z"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 56,
+  "fields": {
+    "post": "a24005ea-0246-4c01-9d68-27dfd0860b38",
+    "name": "khamis",
+    "email": "cellou649@gmail.com",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. ",
+    "is_active": true,
+    "date_created": "2022-12-26T09:33:45.319Z"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 57,
+  "fields": {
+    "post": "a24005ea-0246-4c01-9d68-27dfd0860b38",
+    "name": "Shadow ",
+    "email": "shadow123@gmail.com",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "is_active": true,
+    "date_created": "2022-12-26T10:51:54.597Z"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 58,
+  "fields": {
+    "post": "a24005ea-0246-4c01-9d68-27dfd0860b38",
+    "name": "Shadow ",
+    "email": "shadow123@gmail.com",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "is_active": true,
+    "date_created": "2022-12-26T10:54:14.285Z"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 59,
+  "fields": {
+    "post": "a24005ea-0246-4c01-9d68-27dfd0860b38",
+    "name": "Cellou",
+    "email": "cellou649@gmail.com",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "is_active": true,
+    "date_created": "2022-12-26T10:55:16.345Z"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 60,
+  "fields": {
+    "post": "784fe934-1143-48a3-9c4d-070e81b2430f",
+    "name": "Khamis",
+    "email": "cskhamis94@gmail.com",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "is_active": true,
+    "date_created": "2022-12-26T13:11:45.724Z"
+  }
+}
+]
