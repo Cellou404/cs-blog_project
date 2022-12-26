@@ -146,3 +146,9 @@ def category_view(request, slug):
     }
     return render(request, template_name, context)
 
+# ========== 404 PAGE VIEW ================
+def page_not_found_view(request, exception):
+    return render(request, 'pages/404.html', {}, status=404)
+
+def server_error(request, exception):
+    return render(request, 'pages/500.html', {}, status=500)

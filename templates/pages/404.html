@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} Page Not Found {% endblock title %}
+
+{% block content %}
+<div class="container">
+    <div class="page_not_found">
+        <div class="row">
+            <div class="col-12">
+                <div class="error-page text-center">
+                    <div class="error-code">
+                        <h2><strong>404</strong></h2>
+                    </div>
+                    <div class="error-img">
+                        <img src="{% static 'img/Page_not_found.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
