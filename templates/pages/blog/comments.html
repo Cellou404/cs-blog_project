@@ -1,0 +1,50 @@
+{% load static %}
+{% if comments %}
+
+<div class="post-comments" id="comments">
+    <header>
+        <h3 class="h4">Post Comments<span class="no-of-comments">({{comments.count}})</span></h3>
+    </header>
+
+    <!-- SINGLE COMMENT -->
+    {% for comment in comments %}
+    <div class="comment">
+        <div class="comment-header d-flex justify-content-between">
+            <div class="user d-flex align-items-center">
+                <div class="image">
+                    {% cycle 'darkorange' 'green' 'red' 'black' 'purple' 'orange' 'bluesky' as avatarbg silent %}
+                    {% cycle '/img/avatar-1.jpg' '/img/avatar-2.jpg' '/img/avatar-1.jpg' as avatar silent %}
+                    {% if forloop.counter == 7 %}
+                    {% resetcycle %}
+                    {% endif %}
+
+                    {% comment %}
+                    <img src={{comment.post.author.avatar.url}} alt="..." class="img-fluid rounded-circle">
+                    {% endcomment %}
+                    <p class="bg-light text-center text-black"
+                        style="width: 40px; height: 40px; border-radius: 50%; font-weight: bold;">
+                        <span class="h3 pt-1" style='color:{{avatarbg}}'>{{comment.name|first|upper}}</span>
+                    </p>
+                    
+
+                </div>
+                <div class="title">
+                    <strong>{{ comment.name }}</strong>
+                    <span class="date">{{ comment.date_created | date:"SHORT_DATE_FORMAT"}}</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="comment-body">
+            <p> {{ comment.content }} </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% else %}
+<div class="text-muted h5 mt-4">
+    Be the first to comment this post 👇
+</div>
+
+{% endif %}

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} Blog {% endblock title %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+
+        {% include "pages/blog/listing.html" %}
+
+        {% include "pages/blog/sidebar.html" %}
+
+    </div>
+</div>
+
+  
+{% endblock content %}

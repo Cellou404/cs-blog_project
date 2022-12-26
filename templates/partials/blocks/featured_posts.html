@@ -1,0 +1,39 @@
+{% load static %}
+
+<section class="featured-posts no-padding-top">
+    <div class="container">
+      <!-- Post-->
+      {% if featured_posts %}
+      {% for post in featured_posts %}
+      <div class="row d-flex align-items-stretch">
+        {% if not forloop.first and not forloop.last %}
+        <div class="image col-lg-4"><img src="{{ post.thumbnail.url }}" alt="..."></div>
+        {% endif %}
+        <div class="text col-lg-8">
+          <div class="text-inner d-flex align-items-center">
+            <div class="content">
+              <header class="post-header">
+                <a href="{{ post.get_absolute_url }}">
+                  <h2 class="h4">{{ post.title|slice:45 }}...</h2>
+                </a>
+              </header>
+              <p>{{ post.overview|slice:50 }}...</p>
+              <footer class="post-footer d-flex align-items-center"><a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar"><img src="{{ post.author.avatar.url }}" alt="..." class="img-fluid"></div>
+                  <div class="title"><span>{{ post.author }}</span></div></a>
+                <div class="date"><i class="icon-clock"></i> {{ post.date_created|timesince}}</div>
+                <div class="comments"><i class="icon-comment"></i>{{ post.comments.count }}</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        {% if forloop.first or forloop.last %}
+        <div class="image col-lg-4"><img src="{{ post.thumbnail.url }}" alt="..."></div>
+        {% endif %}
+      </div>
+      {% endfor %}
+      {% else %}
+        <p class="text-muted text-center h3 py-4">Nothing to show yet</p>
+      {% endif %}
+    </div>
+  </section>

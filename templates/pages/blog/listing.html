@@ -1,0 +1,40 @@
+{% load static %}
+<!-- Latest Posts -->
+<main class="posts-listing col-lg-8"> 
+    <div class="container">
+      <div class="row">
+        <!-- post -->
+        {% if posts %}
+        {% for post in posts %}
+          <div class="post col-xl-6">
+            <div class="post-thumbnail"><a href="{{ post.get_absolute_url }}"><img src="{{ post.thumbnail.url }}" alt="..." class="img-fluid"></a></div>
+            <div class="post-details">
+              <div class="post-meta d-flex justify-content-between">
+                <div class="date meta-last">{{ post.date_created|timesince}}</div>
+                <div class="category"><a href="#">{{ post.category }}</a></div>
+              </div><a href="{{ post.get_absolute_url }}">
+                <h3 class="h4">{{ post.title|title|slice:45 }}...</h3></a>
+              <p class="text-muted">{{ post.overview|truncatewords:10 }}</p>
+              <footer class="post-footer d-flex align-items-center"><a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar"><img src="{{ post.author.avatar.url }}" alt="..." class="img-fluid"></div>
+                  <div class="title"><span>{{ post.author }}</span></div></a>
+                <div class="date"><i class="icon-clock"></i> {{ post.date_created | timesince}}</div>
+                <div class="comments meta-last"><i class="icon-comment"></i>{{ post.comments.count }}</div>
+              </footer>
+            </div>
+          </div>
+        {% endfor %}
+
+        {% else %}
+          <p class="mx-auto h3">Nothing to show</p>
+          <img class="mx-auto" src="{% static 'img/undraw_Empty.png' %}" alt="..." width="100%">
+
+            <a href="" class="btn btn-outline-primary btn-lg mx-auto mb-5">
+              <i class="fa fa-plus"></i>
+            </a>
+        {% endif %}
+      </div>
+      <!-- Pagination -->
+      {% include "pages/blog/pagination.html" %}
+    </div>
+</main>
