@@ -120,7 +120,7 @@ DATABASES = {
 }
 '''
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:khamis@localhost:5432/csblog_db')}
+DATABASES = {'default': dj_database_url.config(default='postgres://khamis:khamis@224@localhost:5432/csblog_db')}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
